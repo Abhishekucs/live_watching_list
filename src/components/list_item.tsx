@@ -1,7 +1,6 @@
 "use client";
 import { incrementCount } from "@/actions";
-import { ThickArrowDownIcon, ThickArrowUpIcon } from "@radix-ui/react-icons";
-import { Button, Flex, IconButton, Table } from "@radix-ui/themes";
+import { Button, Flex, Table } from "@radix-ui/themes";
 import React, { useEffect, useState } from "react";
 
 export default function ListItem({

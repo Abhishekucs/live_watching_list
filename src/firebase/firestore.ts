@@ -3,7 +3,6 @@ import {
   addDoc,
   collection,
   doc,
-  getDoc,
   getDocs,
   onSnapshot,
   orderBy,
@@ -11,7 +10,6 @@ import {
   serverTimestamp,
   Timestamp,
   updateDoc,
-  where,
 } from "firebase/firestore";
 import db from "../../firebase";
 
