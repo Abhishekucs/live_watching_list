@@ -66,7 +66,7 @@ export default function ListItem({
             onClick={handleIncrement}
             disabled={hasUpVoted}
           >
-            I'm watching this
+            I&apos;m watching this
           </Button>
           {/* <IconButton
             variant="classic"
